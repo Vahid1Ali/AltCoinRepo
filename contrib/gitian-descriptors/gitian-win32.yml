@@ -2,7 +2,7 @@
 name: "funcoin"
 enable_cache: true
 suites:
-- "trusty"
+- "precise"
 architectures:
 - "amd64"
 packages:
