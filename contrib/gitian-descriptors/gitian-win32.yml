@@ -22,7 +22,7 @@ files:
 script: |
   #
   STAGING=$HOME/staging
-  HOST=x86_64-w64-mingw32
+  HOST=i686-w64-mingw32
   #
   mkdir -p $STAGING
   cd $STAGING
