@@ -15,7 +15,10 @@ reference_datetime: "2011-01-30 00:00:00"
 remotes:
 - "url": "https://github.com/Vahid1Ali/funcoin.git"
   "dir": "funcoin"
-files: []
+files: 
+- "qt-win32-4.8.5-gitian-r8.zip"
+- "boost-win32-1.55.0-gitian-r6.zip"
+- "bitcoin08-deps-win32-gitian-r13.zip"
 script: |
   #
   STAGING=$HOME/staging
