@@ -17,7 +17,7 @@ files:
 - "bitcoin08-deps-win32-gitian-r13.zip"
 script: |
   #
-  HOST=i686-w64-mingw32
+  HOST=i686-w64-mingw32 x86_64-w64-mingw32
   INSTDIR="$HOME/qt/"
   # Integrity Check
   echo "eb728f8268831dc4373be6403b7dd5d5dde03c169ad6882f9a8cb560df6aa138  qt-everywhere-opensource-src-4.8.5.tar.gz"  | sha256sum -c
