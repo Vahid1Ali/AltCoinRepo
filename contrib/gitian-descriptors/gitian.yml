@@ -1,7 +1,7 @@
 ---
 name: "funcoin"
 suites:
-- "lucid"
+- "precise"
 architectures:
 - "amd64"
 packages: 
