@@ -3,6 +3,7 @@ name: "funcoin"
 suites:
 - "precise"
 architectures:
+- "i686"
 - "amd64"
 packages: 
 - "libdb4.8++-dev"
