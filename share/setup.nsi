@@ -45,7 +45,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile funcoin-${VERSION}-win32-setup.exe
+OutFile funcoin-${VERSION}-win64-setup.exe
 InstallDir $PROGRAMFILES\Funcoin
 CRCCheck on
 XPStyle on
